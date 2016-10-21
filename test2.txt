@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<head>
-<title>BLAAAAH</title>
-</head>
+<html>
+<head></head>
 <body>
 </body>
 </html>
