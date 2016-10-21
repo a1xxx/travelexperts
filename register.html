@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register - UNDER CONSTRUCTION</title>
+
+<style>
+a.btnGoback:link, a.btnGoback:visited {
+    background-color: #99D9EA;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.btnGoback:hover, a.btnGoback:active {
+    background-color: blue;
+}
+</style>
+</head>
+
+<body>
+
+<center>
+<table style="width:100%">
+<tr>
+	<td style="width:80px"><a href="index.html"><img src="pic\airplanelogo.png" style="width:80px" /></a></td>
+	<td><h1 style="color:#003399">Welcome to Travel Experts</h1></td>
+</tr>
+</table>
+<hr style="height:2px">
+</center>
+<br /><br />
+
+<form method="post" action="http://localhost/bouncer.php">
+<table>
+<tr>
+	<td>
+	<p style="text-align:right">
+	<label for="firstname">First Name: </label><input type="text" id="firstname" name="firstname" value=""/><br />
+	<br />
+	<label for="lastname">Last Name: </label><input type="text" id="lastname" name="lastname" value=""/><br />
+	<br />
+	<label for="email">Email: </label><input type="text" id="email" name="email" value="" placeholder="email@domain.com" /><br />
+	<br />
+	<label for="phone">Phone: </label><input type="text" id="phone" name="phone" value="" placeholder="xxx-xxx-xxxx" />
+	</p>
+	<hr>
+	
+	<h3 style="text-align:center">Address Information</h3>
+	<p style="text-align:right">
+	<label for="street">Street: </label><input type="text" id="street" name="street" value="" placeholder="123 Road St" /><br />
+	<br />
+	<label for="city">City: </label><input type="text" id="city" name="city" value="" /><br />
+	<br />
+	<label for="province">Province: </label><input type="text" id="province" name="province" value="" /><br />
+	<br />
+	<label for="postalcode">Postal Code: </label><input type="text" id="postalcode" name="postalcode" value="" placeholder="A1B2C3" />
+	</p>
+	<input type="submit" value="Submit" /><input type="reset" value="Clear" />
+	</td>
+</tr>
+</table>
+</form>
+
+<br />
+
+<center>
+<p><h3><a href="index.html" class="btnGoback">GO BACK</a></h3></p>
+</center>
+
+<br />
+<br />
+<h6 style="text-align:right">Copyright &copy; 2016, Travel Experts Inc.</h6>
+</body>
+</html>

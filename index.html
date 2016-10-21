@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="travelpic.css">
+
+	<title>Travel Experts</title>
+
+<script>
+function displayPic(travelpic){
+document.getElementById(travelpic).style.visibility='visible';
+document.body.style.backgroundColor='grey';
+}
+function hidePic(travelpic){
+travelpic.style.visibility='hidden';
+}
+</script>
+
+</head>
+<body>
+
+<img id="font" src="pic/original/travel.font.jpg" onClick="hidePic(this)" />
+<img id="pat" src="pic/original/travel.pat.jpg" onClick="hidePic(this)" />
+<img id="yos" src="pic/original/travel.yos.jpg" onClick="hidePic(this)" />
+<img id="squ" src="pic/original/travel.squ.jpg" onClick="hidePic(this)" />
+<img id="mont" src="pic/original/travel.mont.jpg" onClick="hidePic(this)" />
+<img id="gala" src="pic/original/travel.gala.jpg" onClick="hidePic(this)" />
+
+<header>
+	<img id="logo" src="pic/airplanelogo.png" />
+	<div id="contlogotext">
+		<div id="logotext">Welcome to Travel Experts</div>
+	</div>
+	<img id="banner" src="pic/cityscape.png" />
+</header>
+
+<nav>
+	<a href="nav1.html">Nav1</a><a href="nav3.html">Nav2</a><a href="nav3.html">Nav3</a>
+</nav>
+
+<main>
+	<center>
+	<div id="travelpic">
+		<img src="pic/travel.font.png" onClick="displayPic('font')" /><img src="pic/travel.pat.png" onClick="displayPic('pat')" /><img src="pic/travel.yos.png" onClick="displayPic('yos')" /><br />
+		<img src="pic/travel.squ.png" onClick="displayPic('squ')" /><img src="pic/travel.mont.png" onClick="displayPic('mont')" /><img src="pic/travel.gala.png" onClick="displayPic('gala')" />
+	</div>
+
+	<table>
+	<tr>
+		<td><a href="contact.html"><img class="linkimg" src="pic/contact.jpg" /></a></td>
+		<td><a href="register.html"><img class="linkimg" src="pic/register.jpg" /></a></td>
+	</tr>
+	</table>
+	</center>
+</main>
+
+<footer>
+Copyright &copy; 2016, Travel Experts Inc.
+</footer>
+
+</body>
+</html>
